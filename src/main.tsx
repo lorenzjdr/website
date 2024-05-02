@@ -6,6 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import Home from './Pages/Home/Home';
 import Blog from './Pages/Blog/Blog';
+import BlogHome from './Pages/Blog/BlogHome';
 
 import {
   createBrowserRouter,
@@ -18,7 +19,11 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/website/blog",
+    path: "/website/blog/",
+    element: <BlogHome />
+  },
+  {
+    path: "/website/blog/:id",
     element: <Blog />
   },
 ]);
