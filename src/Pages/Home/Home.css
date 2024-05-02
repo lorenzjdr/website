@@ -1,0 +1,32 @@
+.bod
+{
+   background-color: rgb(255, 255, 255);
+   margin-bottom: 100px;
+}
+
+.card-row
+{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 150px;
+}
+
+@media (max-width: 768px)
+{
+   .card-row
+   {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+}
+
+.footer
+{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}

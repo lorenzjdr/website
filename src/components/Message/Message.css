@@ -1,0 +1,53 @@
+@keyframes fadeIn
+{
+   from 
+   {
+      opacity: 0;
+      transform: translateY(-10px);
+   }
+  to 
+   {
+      transform: translateY(0);
+      opacity: 1;
+   }
+}
+
+.about
+{
+   padding: 20px;
+   font-size: 30px; 
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  animation: fadeIn 3s ease;
+}
+
+.message-text
+{
+   font-size: 70px;
+}
+
+@media (max-width: 768px) {
+
+  .message-container
+  {
+   padding: 75px;
+   height: auto;
+  }
+  .message-text
+   {
+    font-size: 35px; 
+  }
+
+  .about 
+  {
+    font-size: 15px; 
+  }
+}
+
+

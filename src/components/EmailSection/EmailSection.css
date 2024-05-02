@@ -1,0 +1,45 @@
+/* EmailSection.css */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top
+{
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 50px;
+   padding: 75px;
+
+   .abt
+   {
+      padding: 25px;
+      margin-right: 250px;
+   }
+   .contact
+   {
+      padding: 25px;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+
+    footer
+    {
+        padding: 75px;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .abt, .contact {
+        flex: none;
+        justify-content: center;
+        width: 100%;
+    }
+}
+

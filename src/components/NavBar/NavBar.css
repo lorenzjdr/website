@@ -1,0 +1,22 @@
+.container-fluid
+{
+  background-color: #ffffff;
+}
+
+a.navbar-brand 
+{
+  font-size: 25px;
+  color: #000000; 
+}
+
+.navbar-nav {
+  margin-left: auto; 
+}
+
+.navbar-nav .nav-link {
+  font-size: 25px;
+  color: #0b0707; 
+  margin-right: 15px;
+}
+
+
