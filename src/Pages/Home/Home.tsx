@@ -1,4 +1,3 @@
-
 import EmailSection from '../../components/EmailSection/EmailSection';
 import Message from '../../components/Message/Message';
 import NavBar from '../../components/NavBar/NavBar';
@@ -6,7 +5,6 @@ import './Home.css'
 
 function Home()
 {
-  // JSX: JS XML
   return <body className="bod">
     <div>
       <NavBar />
