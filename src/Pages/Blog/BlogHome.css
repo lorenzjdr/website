@@ -1,12 +1,12 @@
 .blog-body {
   margin: 0 auto;
   padding: 20px;
-  max-width: 800px;
+  max-width: 960px; 
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+  font-size: 75px;
+  margin-bottom: 20px; 
 }
 
 .section {
