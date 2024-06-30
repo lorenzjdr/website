@@ -1,38 +1,35 @@
-.blog-body {
+.blog-body
+{
   margin: 0 auto;
   padding: 20px;
   max-width: 960px; 
 }
 
-h1 {
+body
+{
+  background-color: #344648;
+}
+
+h1
+{
   font-size: 75px;
   margin-bottom: 20px; 
+  color: #B09A78;
 }
 
-.section {
+.section 
+{
   margin-top: 40px;
+  color: #B09A78;
 }
 
-h2 {
+h2
+{
   font-size: 1.8rem;
-  margin-bottom: 20px;
 }
 
-.list {
+.list
+{
   list-style: none;
   padding: 0;
-}
-
-.list li {
-  margin-bottom: 10px;
-}
-
-.list li a {
-  color: #333;
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-
-.list li a:hover {
-  color: #007bff;
 }

@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import Home from './Pages/Home/Home';
-import Blog from './Pages/Blog/Blog';
 import BlogHome from './Pages/Blog/BlogHome';
 
 import {
@@ -21,11 +20,8 @@ const router = createBrowserRouter([
   {
     path: "/website/blog/",
     element: <BlogHome />
-  },
-  {
-    path: "/website/blog/:id",
-    element: <Blog />
-  },
+  }
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

@@ -9,11 +9,13 @@ a.navbar-brand
   color: #B09A78;
 }
 
-.navbar-nav {
+.navbar-nav 
+{
   margin-left: auto; 
 }
 
-.navbar-nav .nav-link {
+.navbar-nav .nav-link
+{
   font-size: 25px;
   color: #B09A78;
   margin-right: 15px;

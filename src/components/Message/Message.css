@@ -19,13 +19,14 @@
    color: #B09A78;
 }
 
-.message-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  animation: fadeIn 3s ease;
+.message-container
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   animation: fadeIn 3s ease;
 }
 
 .message-text

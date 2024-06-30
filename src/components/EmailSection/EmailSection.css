@@ -1,6 +1,5 @@
-/* EmailSection.css */
-
-footer {
+footer
+{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,10 +8,10 @@ footer {
 
 .top
 {
-   display: flex;
-   flex-direction: row;
-   margin-bottom: 50px;
-   padding: 75px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    padding: 75px;
 
    .abt
    {
