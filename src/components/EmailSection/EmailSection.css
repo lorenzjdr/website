@@ -16,13 +16,24 @@ footer {
 
    .abt
    {
+      color: #B09A78;
       padding: 25px;
       margin-right: 250px;
    }
    .contact
    {
+      color: #B09A78;
       padding: 25px;
    }
+   a
+   {
+      color: #B09A78;
+   }
+}
+
+.bot
+{
+   color: #B09A78; 
 }
 
 @media only screen and (max-width: 768px) {

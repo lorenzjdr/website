@@ -16,7 +16,7 @@ function NavBar()
           <ul className="navbar-nav">
 
             <li className="nav-item">
-                  <Link className="nav-link active" to="/website/blog">Blog</Link>
+                  <Link className="nav-link " to="/website/blog">Blog</Link>
             </li>
             
             <li className="nav-item">

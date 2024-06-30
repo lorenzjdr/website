@@ -16,6 +16,7 @@
 {
    padding: 20px;
    font-size: 30px; 
+   color: #B09A78;
 }
 
 .message-container {
@@ -29,6 +30,7 @@
 
 .message-text
 {
+   color: #B09A78;
    font-size: 70px;
 }
 
