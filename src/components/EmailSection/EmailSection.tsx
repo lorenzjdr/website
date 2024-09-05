@@ -15,7 +15,7 @@ const EmailSection = () =>
                 <p>Contact Me:</p>
                 <ul>
                     <li>Email: lorenz.jdr@gmail.com</li>
-                    <li><a href="https://www.linkedin.com/in/lorenz-de-robles/">LinkedIn</a></li>
+                    <li><a href="http://www.linkedin.com/in/lorenzjdr">LinkedIn</a></li>
                 </ul>
             </div>
          </div>

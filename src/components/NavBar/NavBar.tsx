@@ -24,7 +24,7 @@ function NavBar()
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href= "https://www.linkedin.com/in/lorenz-de-robles/" >LinkedIn</a>
+              <a className="nav-link" href= "http://www.linkedin.com/in/lorenzjdr" >LinkedIn</a>
             </li>
 
           </ul>
