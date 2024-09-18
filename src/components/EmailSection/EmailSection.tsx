@@ -8,7 +8,8 @@ const EmailSection = () =>
          <div className='top'>
             <div className='abt' >
                <p>
-                  My website is a work in progress...
+                  Hi! I hope you're having a great day so far.<br></br> 
+                  I'm trying to update this when I can. 
                </p>
             </div>
             <div className="contact">
