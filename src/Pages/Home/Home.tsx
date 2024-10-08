@@ -7,7 +7,9 @@ function Home()
 {
   return <body className="bod">
     <div>
+      <div className='sticky'>
       <NavBar />
+      </div>
       <Message />
         <div className="card-row">
         </div>

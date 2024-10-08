@@ -20,3 +20,11 @@
    align-items: center;
    justify-content: center; 
 }
+
+.sticky{
+   position: sticky;
+   top: 0; 
+   background-color:  #344648;
+   padding: 10px;
+   z-index: 1000; 
+}
