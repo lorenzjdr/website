@@ -1,6 +1,6 @@
 .card {
   width: 18rem;
-  border: 1px solid #ddd;
+  border: 1px solid #5b5656;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -13,16 +13,18 @@
 
 .card-body {
   padding: 1rem;
+  background-color: #344648;
 }
 
 .card-title {
   font-size: 1.25rem;
+  color: #B09A78;
   margin: 0 0 0.5rem;
 }
 
 .card-text {
   font-size: 1rem;
-  color: #555;
+  color: #B09A78;
   margin-bottom: 1rem;
 }
 
@@ -37,5 +39,5 @@
 }
 
 .card-button:hover {
-  background-color: #0056b3;
+  background-color: #a0a6ac;
 }
