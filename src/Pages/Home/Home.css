@@ -3,17 +3,6 @@
    background-color: #344648;
 }
 
-@media (max-width: 768px)
-{
-   .card-row
-   {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-   }
-}
-
 .footer
 {
    display: flex;

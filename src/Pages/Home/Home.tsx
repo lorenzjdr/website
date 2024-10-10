@@ -11,8 +11,6 @@ function Home()
       <NavBar />
       </div>
       <Message />
-        <div className="card-row">
-        </div>
         <div className="footer">
         <EmailSection />
         </div>
