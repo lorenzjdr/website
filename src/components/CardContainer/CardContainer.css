@@ -3,4 +3,27 @@
   flex-direction: row;
   gap: 75px;
   justify-content: center;
+  opacity: 0;
+}
+
+.card-rows.visible {
+  animation: fadeIn 3s ease;
+}
+
+.card-rows.hidden {
+   opacity: 0;
+}
+
+@keyframes fadeIn
+{
+   from 
+   {
+      opacity: 0;
+      transform: translateY(-10px);
+   }
+  to 
+   {
+      opacity: 1;
+      transform: translateY(0);
+   }
 }
