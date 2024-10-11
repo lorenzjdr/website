@@ -12,8 +12,16 @@
 }
 
 .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; 
   padding: 1rem;
   background-color: #344648;
+}
+
+.card-link {
+  margin-top: auto;
 }
 
 .card-title {

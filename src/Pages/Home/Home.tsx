@@ -1,3 +1,4 @@
+import CardContainer from '../../components/CardContainer/CardContainer';
 import EmailSection from '../../components/EmailSection/EmailSection';
 import Message from '../../components/Message/Message';
 import NavBar from '../../components/NavBar/NavBar';
@@ -11,6 +12,7 @@ function Home()
       <NavBar />
       </div>
       <Message />
+      <CardContainer/>
         <div className="footer">
         <EmailSection />
         </div>

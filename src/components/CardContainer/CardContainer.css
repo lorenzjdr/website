@@ -1,0 +1,6 @@
+.card-rows {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  justify-content: center;
+}
