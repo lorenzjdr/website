@@ -5,7 +5,7 @@
   max-width: 960px; 
 }
 
-body {
+.blog-container {
   background-color: #344648;
   margin: 0; 
   height: 100vh; 
