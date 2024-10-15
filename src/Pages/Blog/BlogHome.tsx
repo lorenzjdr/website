@@ -2,7 +2,6 @@ import './BlogHome.css';
 
 const BlogHome = () => {
   return (
-    <body className='whole'>
     <div className="blog-body" >
       <h1>Hi welcome to my thoughts!</h1>
 
@@ -11,7 +10,6 @@ const BlogHome = () => {
       </section>
 
     </div>
-    </body>
   );
 }
 

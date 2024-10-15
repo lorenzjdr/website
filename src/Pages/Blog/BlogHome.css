@@ -5,14 +5,18 @@
   max-width: 960px; 
 }
 
-body
-{
+body {
   background-color: #344648;
+  margin: 0; 
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: start; 
 }
 
 h1
 {
-  font-size: 75px;
+  font-size: 50px;
   margin-bottom: 20px; 
   color: #B09A78;
 }
