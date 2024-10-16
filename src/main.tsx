@@ -6,11 +6,13 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import Home from './Pages/Home/Home';
 import BlogHome from './Pages/Blog/BlogHome';
+import EmptyPage from './components/Empty/EmptyPage';
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 
 const router = createBrowserRouter([
   {
@@ -20,7 +22,11 @@ const router = createBrowserRouter([
   {
     path: "/website/blog/",
     element: <BlogHome />
-  }
+  },
+  {
+    path: '*', 
+    element:<EmptyPage message='What are you looking for ? :D'/>
+  },
 
 ]);
 
