@@ -1,0 +1,11 @@
+.midContainer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background-color: #344648;
+}
+
+.h1{
+   align-self: center;
+}
