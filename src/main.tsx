@@ -9,18 +9,18 @@ import BlogHome from './Pages/Blog/BlogHome';
 import EmptyPage from './components/Empty/EmptyPage';
 
 import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+  createHashRouter,
+  RouterProvider
+} from 'react-router-dom';
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/website/",
+    path: "/",
     element: <Home />,
   },
   {
-    path: "/website/blog/",
+    path: "/blog",
     element: <BlogHome />
   },
   {
