@@ -37,3 +37,19 @@ h2
   list-style: none;
   padding: 0;
 }
+
+.section {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.section a {
+  color: #B09A78; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the text bold */
+  font-size: 45px;
+}
+
+.section a:hover {
+    color: #ffff; /* Darker color on hover */
+    text-decoration: underline; /* Underline on hover */
+}

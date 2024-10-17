@@ -7,7 +7,7 @@ const BlogHome = () => {
         <h1>Hi welcome to my thoughts!</h1>
 
         <section className="section">
-          <h2> Work in progress :P </h2>
+         <a href=''> Entry 0</a> 
         </section>
       </div>
     </div>
