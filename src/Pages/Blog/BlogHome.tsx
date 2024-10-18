@@ -7,7 +7,7 @@ const BlogHome = () => {
         <h1>Hi welcome to my thoughts!</h1>
 
         <section className="section">
-         <a href=''> Entry 0</a> 
+         <a href='#/blog/0'> Entry 0</a> 
         </section>
       </div>
     </div>

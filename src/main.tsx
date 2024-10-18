@@ -13,6 +13,7 @@ import {
   RouterProvider
 } from 'react-router-dom';
 
+import BlogPost from './Pages/Blog/BlogPost';
 
 const router = createHashRouter([
   {
@@ -27,6 +28,10 @@ const router = createHashRouter([
     path: '*', 
     element:<EmptyPage message='What are you looking for ? :D'/>
   },
+  {
+    path: "/blog/:id",
+    element: <BlogPost/>
+  }
 
 ]);
 
