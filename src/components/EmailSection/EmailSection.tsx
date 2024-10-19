@@ -4,7 +4,6 @@ const EmailSection = () =>
 {
    return (
       <>
-        <footer>
          <div className='top'>
             <div className='abt' >
                <p>
@@ -23,7 +22,6 @@ const EmailSection = () =>
             <div className='bot'>
                 <p>&copy;2024- Lorenz De Robles</p>
             </div>
-        </footer> 
       </>
    );
 }
