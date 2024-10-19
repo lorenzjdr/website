@@ -27,3 +27,24 @@
       transform: translateY(0);
    }
 }
+
+@media (max-width: 768px) {
+
+   .card-rows {
+      display: flex;
+      flex-direction: column;
+      gap: 75px;
+      justify-content: center;
+      opacity: 0;
+   }
+
+   .card-rows.visible {
+      display: flex;
+      align-items: center;
+      animation: fadeIn 3s ease;
+   }
+
+   .card-rows.hidden {
+      opacity: 0;
+   }
+}
