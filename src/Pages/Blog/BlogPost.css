@@ -56,3 +56,20 @@ h2 {
   list-style: none;
   padding: 0;
 }
+
+@media (max-width: 768px) {
+
+  .blog-content {
+    width: 100%; 
+    padding: 0 50px;
+  }
+
+  .blog-content pre {
+  white-space: pre-wrap; 
+  word-wrap: break-word; 
+  color: #B09A78; 
+  font-size: 25px; 
+  line-height: 2.0; 
+}
+
+}
