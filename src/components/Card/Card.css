@@ -49,3 +49,12 @@
 .card-button:hover {
   background-color: #a0a6ac;
 }
+
+@media (max-width: 768px) {
+
+  .card-text {
+    font-size: 15px;
+    color: #B09A78;
+    margin-bottom: 1rem;
+  }
+}
