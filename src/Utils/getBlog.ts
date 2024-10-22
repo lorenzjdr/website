@@ -17,4 +17,18 @@ export const getBlog = async (id: string) => {
   }
 };
 
+export const getAllBlogs = async() =>{
+  const blogRef = ref(database, '/blog/');  
+  try {
+    const snapshot = await get(blogRef);
+    if (snapshot.exists()) {
+      const blogData = snapshot.val();
+      return blogData;
+    } else {
+      console.log("Could not retrieve blogs");
+    }
+  } catch (error) {
+    console.error("Error fetching blog post: ", error);
+  }
+}
 
