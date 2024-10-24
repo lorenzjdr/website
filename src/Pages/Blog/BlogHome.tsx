@@ -19,11 +19,13 @@ const BlogHome = () => {
         <h1>Hi welcome to my thoughts!</h1>
 
         <section className="section">
-         <a href='#/blog/0'> Entry 0</a> 
+          {entries.map((_, index) => (
+              <a key={index} href={`#/blog/${index}`}>Entry {index}</a>
+          ))}
         </section>
       </div>
     </div>
-  );
+  );  
 }
 
 export default BlogHome;
