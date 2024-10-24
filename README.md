@@ -1,5 +1,5 @@
 # My Personal Website
-My personal website; will be worked on when I have some free time! 
+My personal website; I wanted to show a little bit about myself.  
 
-# Why ?
-I wanted to build a website while also learning React.
+# Purpose
+I wanted to build a website while also learning React (among other things). I'm having a lot of fun!
