@@ -21,12 +21,6 @@ h1
   color: #B09A78;
 }
 
-.section 
-{
-  margin-top: 40px;
-  color: #B09A78;
-}
-
 h2
 {
   font-size: 1.8rem;
@@ -40,6 +34,11 @@ h2
 
 .section {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 40px;
+  color: #B09A78;
 }
 
 .section a {
