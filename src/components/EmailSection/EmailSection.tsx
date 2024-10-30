@@ -1,7 +1,7 @@
 import './EmailSection.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const EmailSection = () =>
 {
@@ -16,15 +16,15 @@ const EmailSection = () =>
             </div>
             <div className="contact">
                 <p>Contact Me:</p>
-                <ul>
-                    <li>Email: lorenz.jdr@gmail.com</li>
-                        <a href="http://www.linkedin.com/in/lorenzjdr" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faLinkedin} size="4x" />
-                        </a>
-                        <a href="http://www.github.com/lorenzjdr" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faGithub} size="4x" /> 
-                        </a>
-                </ul>
+                     <a href="mailto:lorenz.jdr@gmail.com" target="_blank" rel="noopener noreferrer">
+                         <FontAwesomeIcon icon={faEnvelope} size="4x" />
+                     </a>
+                     <a href="http://www.github.com/lorenzjdr" target="_blank" rel="noopener noreferrer">
+                         <FontAwesomeIcon icon={faGithub} size="4x" /> 
+                     </a>
+                     <a href="http://www.linkedin.com/in/lorenzjdr" target="_blank" rel="noopener noreferrer">
+                         <FontAwesomeIcon icon={faLinkedin} size="4x" />
+                     </a>
             </div>
          </div>
             <div className='bot'>
