@@ -1,4 +1,7 @@
 import './EmailSection.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+
 
 const EmailSection = () =>
 {
@@ -15,7 +18,12 @@ const EmailSection = () =>
                 <p>Contact Me:</p>
                 <ul>
                     <li>Email: lorenz.jdr@gmail.com</li>
-                    <li><a href="http://www.linkedin.com/in/lorenzjdr">LinkedIn</a></li>
+                        <a href="http://www.linkedin.com/in/lorenzjdr" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faLinkedin} size="4x" />
+                        </a>
+                        <a href="http://www.github.com/lorenzjdr" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGithub} size="4x" /> 
+                        </a>
                 </ul>
             </div>
          </div>
