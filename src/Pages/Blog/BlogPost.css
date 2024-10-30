@@ -59,16 +59,20 @@ h2 {
 
 @media (max-width: 768px) {
 
+  .blog-title h1 {
+    font-size: 30px;
+  }
+
   .blog-content {
     width: 100%; 
-    padding: 0 50px;
+    padding: 0 20px;
   }
 
   .blog-content pre {
   white-space: pre-wrap; 
   word-wrap: break-word; 
   color: #B09A78; 
-  font-size: 25px; 
+  font-size: 16px; 
   line-height: 2.0; 
 }
 
