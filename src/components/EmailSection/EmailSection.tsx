@@ -16,6 +16,7 @@ const EmailSection = () =>
             </div>
             <div className="contact">
                 <p>Contact Me:</p>
+                <div className='contact-icons'>
                      <a href="mailto:lorenz.jdr@gmail.com" target="_blank" rel="noopener noreferrer">
                          <FontAwesomeIcon icon={faEnvelope} size="4x" />
                      </a>
@@ -25,6 +26,7 @@ const EmailSection = () =>
                      <a href="http://www.linkedin.com/in/lorenzjdr" target="_blank" rel="noopener noreferrer">
                          <FontAwesomeIcon icon={faLinkedin} size="4x" />
                      </a>
+                </div>
             </div>
          </div>
             <div className='bot'>
