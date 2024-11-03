@@ -22,9 +22,11 @@
 
 .card-link {
   margin-top: auto;
+  text-align: center;
 }
 
 .card-title {
+  text-align: center;
   font-size: 1.25rem;
   color: #B09A78;
   margin: 0 0 0.5rem;
