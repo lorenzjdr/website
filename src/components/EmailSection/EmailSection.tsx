@@ -11,7 +11,6 @@ const EmailSection = () =>
             <div className='abt' >
                <p>
                   Hi! I hope you're having a great day so far.<br></br> 
-                  I'm trying to update this when I can. 
                </p>
             </div>
             <div className="contact">
