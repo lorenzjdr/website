@@ -9,10 +9,12 @@ interface CardProps {
 }
 
 const Card = ({ title, description, image, link, linkText }: CardProps) => {
+  const placeholderImage = 'src/assets/placeholder.png';
+
   return (
     <div className="card">
       <img 
-        src={image}
+        src={image || placeholderImage}
         alt="Image" 
         className="card-image" 
       />
