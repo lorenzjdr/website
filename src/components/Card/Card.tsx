@@ -1,16 +1,15 @@
 import './Card.css';
+import placeholderImage from '../../assets/placeholder.png';
 
 interface CardProps {
   title: string;
   description: string;
-  image: string;
+  image?: string;
   link: string;
   linkText?: string;
 }
 
 const Card = ({ title, description, image, link, linkText }: CardProps) => {
-  const placeholderImage = 'src/assets/placeholder.png';
-
   return (
     <div className="card">
       <img 
