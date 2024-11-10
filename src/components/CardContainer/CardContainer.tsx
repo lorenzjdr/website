@@ -22,7 +22,7 @@ const CardContainer = () => {
       <Card 
         title={"Danddy"} 
         description={"A D&D Campaign helper that improves quality of life for campaigns and combat."} 
-        image={""} 
+        image={"/src/assets/danddy.jpg"} 
         link={""}
       />
   
@@ -35,8 +35,9 @@ const CardContainer = () => {
       <Card 
         title={"VTT_to_TXT"} 
         description={"Convert a VTT file to TXT."} 
-        image={""} 
-        link={"https://github.com/lorenzjdr/VTT_to_TXT"}
+        image={"src/assets/vtt_to_txt.png"} 
+        link={"https://vtt-to-txt.lorenzjdr.dev/"}
+        linkText={"Try it!"}
       />
     </div>
   );
