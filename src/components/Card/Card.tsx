@@ -5,9 +5,10 @@ interface CardProps {
   description: string;
   image: string;
   link: string;
+  linkText?: string;
 }
 
-const Card = ({ title, description, image, link }: CardProps) => {
+const Card = ({ title, description, image, link, linkText }: CardProps) => {
   return (
     <div className="card">
       <img 
@@ -18,7 +19,7 @@ const Card = ({ title, description, image, link }: CardProps) => {
       <div className="card-body">
         <h3 className="card-title">{title}</h3>
         <p className="card-text">{description}</p>
-        <a className="card-link" href={link}>Demo</a>
+        <a className="card-link" href={link}>{linkText || 'WIP'}</a>
       </div>
     </div>
   );
