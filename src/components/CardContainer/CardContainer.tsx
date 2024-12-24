@@ -17,6 +17,11 @@ const CardContainer = () => {
   }, [isVisible, played]);
 
   return (
+    <>
+    <div >
+      <h1 ref={ref} className={`card-container-title ${played ? 'visible': 'hidden'}`}>
+      Projects</h1>
+    </div>
     <div 
       ref={ref} 
       className={`card-rows ${played ? 'visible' : 'hidden'}`}
@@ -45,6 +50,7 @@ const CardContainer = () => {
         link={""}
       />
     </div>
+    </>
   );
 }
 
