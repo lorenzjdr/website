@@ -9,8 +9,9 @@
 .card-image {
   width: 100%;
   height: auto;
-  max-width: 100%; 
-  max-height: 200px; 
+  max-width: 100%;
+  min-height: 200px;
+  object-fit: cover;
 }
 
 .card-body {
@@ -23,7 +24,6 @@
 }
 
 .card-link {
-  margin-top: auto;
   text-align: center;
 }
 

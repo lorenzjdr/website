@@ -4,6 +4,7 @@ import Card from "../Card/Card";
 import "./CardContainer.css";
 import danddyImage from '../../assets/danddy.jpg';
 import vttToTxtImage from '../../assets/vtt_to_txt.png';
+import darkSkyRoadsImage from '../../assets/darkskyroads-epk.png';
 
 const CardContainer = () => {
   const { ref, isVisible } = useVisibility();
@@ -22,25 +23,26 @@ const CardContainer = () => {
       style={{ transition: 'opacity 0.5s', opacity: played ? 1 : 0 }}
     >
       <Card 
-        title={"Danddy"} 
-        description={"A D&D Campaign helper that improves quality of life for campaigns and combat."} 
-        image={danddyImage} 
-        link={""}
-      />
-  
-      <Card 
-        title={"TamaGOtchi"} 
-        description={"Habit tracker written in Golang with Tamagotchi gameplay elements."} 
-        image={""}
-        link={""}
+        title={"Dark Sky Roads Electronic Press Kit"} 
+        description={"An electronic press kit built in React for the band Dark Sky Roads."} 
+        image={darkSkyRoadsImage}
+        link={"https://darkskyroads.com/"}
+        linkText={"View the EPK!"}
       />
 
       <Card 
         title={"VTT_to_TXT"} 
-        description={"Convert a VTT file to TXT."} 
+        description={"A tool to remove timestamps and convert a .VTT file to a .TXT."} 
         image={vttToTxtImage} 
         link={"https://vtt-to-txt.lorenzjdr.dev/"}
         linkText={"Try it!"}
+      />
+      
+      <Card 
+        title={"Danddy"} 
+        description={"A D&D Campaign helper that improves quality of life for campaigns and combat."} 
+        image={danddyImage} 
+        link={""}
       />
     </div>
   );
