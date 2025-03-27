@@ -1,5 +1,7 @@
+@import url("../../styles/global.css");
+
 .blog-post {
-  background-color: #344648;
+  background-color: var(--primary-color);
   height: 100vh; 
   display: flex; 
   flex-direction: column; 
@@ -11,7 +13,7 @@
 .blog-content pre {
   white-space: pre-wrap; 
   word-wrap: break-word; 
-  color: #B09A78; 
+  color: var(--secondary-color); 
   font-size: 25px; 
   line-height: 2.0; 
 }
@@ -23,13 +25,13 @@
 .blog-title h1 {
   font-size: 75px; 
   margin-bottom: 20px; 
-  color: #B09A78; 
+  color: var(--secondary-color); 
 }
 
 .blog-title p {
   font-size: larger; 
   margin-bottom: 75px; 
-  color: #B09A78; 
+  color: var(--secondary-color); 
 }
 
 .blog-content {
@@ -40,12 +42,12 @@
 .blog-content p {
   font-size: 25px;
   line-height: 2.0;
-  color: #B09A78; 
+  color: var(--secondary-color); 
 }
 
 .section {
   margin-top: 40px;
-  color: #B09A78; 
+  color: var(--secondary-color); 
 }
 
 h2 {
@@ -71,7 +73,7 @@ h2 {
   .blog-content pre {
   white-space: pre-wrap; 
   word-wrap: break-word; 
-  color: #B09A78; 
+  color: var(--secondary-color); 
   font-size: 16px; 
   line-height: 2.0; 
 }

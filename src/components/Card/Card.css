@@ -1,3 +1,5 @@
+@import url("../../styles/global.css");
+
 .card {
   width: 18rem;
   border: 1px solid #5b5656;
@@ -26,7 +28,7 @@
   justify-content: space-between;
   height: 100%; 
   padding: 1rem;
-  background-color: #344648;
+  background-color: var(--primary-color);
 }
 
 .card-link {
@@ -36,13 +38,13 @@
 .card-title {
   text-align: center;
   font-size: 1.25rem;
-  color: #B09A78;
+  color: var(--secondary-color);
   margin: 0 0 0.5rem;
 }
 
 .card-text {
   font-size: 1rem;
-  color: #B09A78;
+  color: var(--secondary-color);
   margin-bottom: 1rem;
 }
 
@@ -64,7 +66,7 @@
 
   .card-text {
     font-size: 15px;
-    color: #B09A78;
+    color: var(--secondary-color);
     margin-bottom: 1rem;
   }
 }
