@@ -1,3 +1,4 @@
+@import url("../../styles/global.css");
 
 .top {
     display: flex;
@@ -9,11 +10,11 @@
 }
 
 .abt {
-    color: #B09A78;
+    color: var(--secondary-color);
 }
 
 .contact {
-    color: #B09A78;
+    color: var(--secondary-color);
 }
 
 .contact-icons{
@@ -27,7 +28,7 @@
 }
 
 a {
-    color: #B09A78;
+    color: var(--secondary-color);
 }
 
 p {
@@ -35,7 +36,7 @@ p {
 }
 
 .bot {
-    color: #B09A78; 
+    color: var(--secondary-color); 
 }
 
 @media only screen and (max-width: 768px) {

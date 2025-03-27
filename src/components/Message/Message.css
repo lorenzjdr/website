@@ -1,3 +1,5 @@
+@import url("../../styles/global.css");
+
 @keyframes fadeIn
 {
    from 
@@ -16,7 +18,7 @@
 {
    padding: 20px;
    font-size: 30px; 
-   color: #B09A78;
+   color: var(--secondary-color);
 }
 
 .message-container
@@ -31,7 +33,7 @@
 
 .message-text
 {
-   color: #B09A78;
+   color: var(--secondary-color);
    font-size: 70px;
 }
 

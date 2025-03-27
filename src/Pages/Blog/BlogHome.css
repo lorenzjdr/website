@@ -1,3 +1,5 @@
+@import url("../../styles/global.css");
+
 .blog-body
 {
   margin: 0 auto;
@@ -6,7 +8,7 @@
 }
 
 .blog-container {
-  background-color: #344648;
+  background-color: var(--primary-color);
   margin: 0; 
   height: 100vh; 
   display: flex; 
@@ -18,7 +20,7 @@ h1
 {
   font-size: 50px;
   margin-bottom: 20px; 
-  color: #B09A78;
+  color: var(--secondary-color);
 }
 
 h2
@@ -38,11 +40,11 @@ h2
   gap: 10px;
   flex-direction: column;
   margin-top: 40px;
-  color: #B09A78;
+  color: var(--secondary-color);
 }
 
 .section a {
-  color: #B09A78; /* Link color */
+  color: var(--secondary-color); /* Link color */
   text-decoration: none; /* Remove underline */
   font-weight: bold; /* Make the text bold */
   font-size: 45px;

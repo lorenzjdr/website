@@ -1,9 +1,11 @@
+@import url("../../styles/global.css");
+
 .midContainer{
    display: flex;
    align-items: center;
    justify-content: center;
    height: 100vh;
-   background-color: #344648;
+   background-color: var(--primary-color);
 }
 
 .h1{

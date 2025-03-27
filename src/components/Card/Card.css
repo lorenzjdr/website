@@ -1,9 +1,17 @@
+@import url("../../styles/global.css");
+
 .card {
   width: 18rem;
   border: 1px solid #5b5656;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card-image {
@@ -20,7 +28,7 @@
   justify-content: space-between;
   height: 100%; 
   padding: 1rem;
-  background-color: #344648;
+  background-color: var(--primary-color);
 }
 
 .card-link {
@@ -30,13 +38,13 @@
 .card-title {
   text-align: center;
   font-size: 1.25rem;
-  color: #B09A78;
+  color: var(--secondary-color);
   margin: 0 0 0.5rem;
 }
 
 .card-text {
   font-size: 1rem;
-  color: #B09A78;
+  color: var(--secondary-color);
   margin-bottom: 1rem;
 }
 
@@ -58,7 +66,7 @@
 
   .card-text {
     font-size: 15px;
-    color: #B09A78;
+    color: var(--secondary-color);
     margin-bottom: 1rem;
   }
 }

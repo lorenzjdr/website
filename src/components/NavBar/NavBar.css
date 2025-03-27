@@ -1,12 +1,14 @@
+@import url("../../styles/global.css");
+
 .container-fluid
 {
-  background-color: #344648;;
+  background-color: var(--primary-color);
 }
 
 a.navbar-brand 
 {
   font-size: 25px;
-  color: #B09A78;
+  color: var(--secondary-color);
 }
 
 .navbar-nav 
@@ -17,8 +19,6 @@ a.navbar-brand
 .navbar-nav .nav-link
 {
   font-size: 25px;
-  color: #B09A78;
+  color: var(--secondary-color);
   margin-right: 15px;
 }
-
-
