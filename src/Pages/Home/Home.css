@@ -1,6 +1,8 @@
+@import url("../../styles/global.css");
+
 .bod 
 {
-   background-color: #344648;
+   background-color: var(--primary-color);
 }
 
 .footer
@@ -14,7 +16,9 @@
 .sticky{
    position: sticky;
    top: 0; 
-   background-color:  #344648;
+   background-color: var(--primary-color);
    padding: 10px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
    z-index: 1000; 
+   border-radius: 500px; 
 }
