@@ -1,6 +1,8 @@
+@import url("../../styles/global.css");
+
 .container-fluid
 {
-  background-color: #344648;;
+  background-color: var(--primary-color);
 }
 
 a.navbar-brand 
@@ -20,5 +22,3 @@ a.navbar-brand
   color: #B09A78;
   margin-right: 15px;
 }
-
-
