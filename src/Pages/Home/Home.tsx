@@ -25,11 +25,11 @@ function Home() {
             My hobbies include lifting, playing video games, and reading Manga.
             </li>
             <li className="mb-1">
-            I love cats and capybaras <span className="inline-block animate-bounce text-pink-500 font-bold">!!!!</span>
+            I love cats and capybaras <span className="inline-block text-pink-500 font-bold">!!!!</span>
             </li>
           </ul>
           <p className="text-lg mb-2">
-            I also love studying! I'm building/learning about:
+            I'm building/learning about:
           </p>
           <ul className="list-disc pl-5">
             <li className="mb-1">
@@ -44,8 +44,7 @@ function Home() {
             </li>
           </ul>
             <p className="text-lg mb-2">
-            Right now, I'm a current student at Texas State University
-            . During my time:
+            Me when Locked In:
             </p>
           <ul className='list-disc pl-5'>
             <li className="mb-1">
@@ -55,7 +54,7 @@ function Home() {
             I did Computer Vision research to help those that are visually impaired. 
             </li>
             <li className="mb-1">
-            Built a community at .EXE as President for ~2 years. 
+            Built a community at TXST .EXE as President for ~2 years. 
             </li>
           </ul>
           <hr className="mt-8 mb-6 border-gray-300" />
