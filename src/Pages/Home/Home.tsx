@@ -35,12 +35,12 @@ function Home() {
       
       <footer className="text-gray-500 text-sm">
         <div className="flex items-center">
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-800 mr-2">
-            <FontAwesomeIcon icon={faGithub} /> GitHub
+          <a href="https://github.com/lorenzjdr" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-800 mr-2">
+            <FontAwesomeIcon icon={faGithub} /> 
           </a>
           <span className="mx-1">|</span>
-          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-800 mx-2">
-            <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+          <a href="https://linkedin.com/in/lorenzjdr/" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-800 mx-2">
+            <FontAwesomeIcon icon={faLinkedin} /> 
           </a>
         </div>
       </footer>
