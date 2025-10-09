@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { getAllBlogs } from '../../Utils/getBlog';
-import './BlogHome.css';
 
 const BlogHome = () => {
   const [entries,setEntries] = useState([]);

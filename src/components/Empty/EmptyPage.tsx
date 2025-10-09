@@ -1,5 +1,3 @@
-import './EmptyPage.css';
-
 interface EmptyPageProps {
    message: string;
 }

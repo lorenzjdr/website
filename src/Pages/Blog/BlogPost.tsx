@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getBlog } from '../../Utils/getBlog';
 import EmptyPage from '../../components/Empty/EmptyPage';
-import './BlogPost.css'; 
 
 interface BlogPostData {
   title: string;
