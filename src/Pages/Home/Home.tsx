@@ -5,17 +5,20 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 function Home() {
 
   return (
-    <div className="min-h-screen bg-white">
-    <div className="max-w-2xl mx-auto px-4 py-8">
+    <div className="min-h-screen text-[#ebeced] bg-zinc-800">
+    <div className="max-w-2xl mx-auto px-4 py-4">
       <header className="mb-8">
         <h1 className="text-6xl font-bold mb-2">Lorenz De Robles</h1>
-        <p className="text-gray-600 mt-4">Learning...</p>
+        <p className="text-gray-400 font-mono mt-4">Learning...</p>
       </header>
       
       <main>
         <div>
           <p className="text-lg mb-2">
             Welcome! This page is where you'll learn about me. 
+          </p>
+          <p className="text-lg font-semibold mb-2">
+            ~/Me
           </p>
           <ul className="list-disc pl-5">
             <li className="mb-1">
@@ -25,10 +28,10 @@ function Home() {
             My hobbies include lifting, playing video games, and reading Manga.
             </li>
             <li className="mb-1">
-            I love cats and capybaras <span className="inline-block text-pink-500 font-bold">!!!!</span>
+            I love cats and capybaras <span className="inline-block text-pink-500 font-bold hover:animate-bounce">!!!!</span>
             </li>
           </ul>
-          <p className="text-lg mb-2">
+          <p className="text-lg font-semibold mt-5 mb-2">
             I'm building/learning about:
           </p>
           <ul className="list-disc pl-5">
@@ -43,12 +46,12 @@ function Home() {
             Python & recently have been learning Rust  🤠
             </li>
           </ul>
-            <p className="text-lg mb-2">
+            <p className="text-lg font-semibold mt-5 mb-2">
             Me when Locked In:
             </p>
           <ul className='list-disc pl-5'>
             <li className="mb-1">
-            I was a <span className='underline'>Software Engineer Intern</span> at Walmart Global Tech. 🛒 
+            I was a <span className='underline text-[#A9DDF7]'>Software Engineer Intern</span> at Walmart Global Tech. 🛒 
             </li>
             <li className="mb-1">
             I did Computer Vision research to help those that are visually impaired. 
@@ -58,24 +61,24 @@ function Home() {
             </li>
           </ul>
           <hr className="mt-8 mb-6 border-gray-300" />
-          <p className="text-lg mb-2">
+          <p className="text-base font-mono mb-2">
             That's a little bit about me. Feel free to send me a message. Have a great rest of your day !
           </p>
         </div>
       </main>
       <hr className="mt-8 mb-6 border-gray-300" />
       
-      <footer className="text-gray-500 text-sm">
+      <footer className="text-gray-400 text-sm">
         <div className="flex items-center">
-          <a href="https://github.com/lorenzjdr" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-800 mr-2">
+          <a href="https://github.com/lorenzjdr" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-700 mr-2">
             <FontAwesomeIcon icon={faGithub} /> 
           </a>
           <span className="mx-1">|</span>
-            <a href="https://linkedin.com/in/lorenzjdr/" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-gray-800 mx-2">
+            <a href="https://linkedin.com/in/lorenzjdr/" target="_blank" rel="noopener noreferrer" className="text-xl text-sky-800 hover:text-gray-700 mx-2">
             <FontAwesomeIcon icon={faLinkedin} /> 
             </a>
             <span className="mx-1">|</span>
-            <a href="mailto:lorenzjdr@gmail.com" className="text-xl hover:text-gray-800 mx-2">
+            <a href="mailto:lorenzjdr@gmail.com" className="text-xl text-blue-800 hover:text-gray-700 mx-2">
             <FontAwesomeIcon icon={faEnvelope} />
             </a>
         </div>
